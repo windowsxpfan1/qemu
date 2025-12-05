@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "mint"
+      BOOT: "https://drive.google.com/uc?export=download&id=1wpbYPwOSguBDO9etPdq5pQmoR9FVlfM9"
     devices:
       - /dev/kvm
       - /dev/net/tun
